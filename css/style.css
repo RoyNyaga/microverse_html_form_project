@@ -7,7 +7,6 @@ body {
 }
 
 nav {
-	border: 2px solid red;
 	width: 100%;
 	text-align: right;
 	margin-bottom: 10px;
@@ -23,7 +22,6 @@ nav p {
 }
 
 .nav-text {
-	border: 2px solid red;
 	display: inline-block;
 	font-size: 10px;
 }
@@ -34,7 +32,6 @@ nav p {
 
 .nav-button {
 	padding-bottom: -100px;
-	border: 2px solid red;
 	width: 8%;
 	display: inline-block;
 	/*position: relative;
@@ -43,7 +40,6 @@ nav p {
 }
 
 main {
-	border: 2px solid red;
   width: 28em;
   margin: 4em auto 4em;
   margin-bottom: 0;
@@ -79,7 +75,7 @@ img {
 }
 
 .labels {
-	border: 2px solid red;
+
 	position: relative;
 	top: 35px;
 }
