@@ -1,0 +1,1 @@
+This is a Microverse project and consist of producing a clone of Mint.com’s signup page using html and css.
