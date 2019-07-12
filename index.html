@@ -1,0 +1,59 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		 <link rel="stylesheet" type ="text/css" href ="css/style.css">
+		<title>Forms</title>
+	</head>
+	<body>
+<nav>
+	<div class="nav-text">
+		<p>do you already have an account <br> or you already ha a </p>
+	</div>	
+	<div class="nav-button">
+		 <input type="submit" value="sign in">
+	</div>
+	
+</nav>		
+
+<div class="form-fields">
+	<div class="above-form">
+		<h2 class="above-text">Create an Intuit account</h2>
+		<p class="above-text">One account for everything Intuit, including Mint. <br> <a href="#"><small class="above-text">learn more</small></a> <br><span class="above-text">Already have an account?</sapn><span class="above-text"><a href="#">Signin</a></span></p>		
+	</div>
+
+  <form action="/action_page.php">
+    <label for="email" class="labels">Email address</label> <!--the value of "for" should always be the same as that of the id of the input-->
+    <input type="email" class="form-input" id="email" name="email" placeholder="Your Email">
+
+    <label for="lnumber" class="labels">Phone(recommended)</label>
+    <input type="number" class="form-input" id="lnumber" name="number" placeholder="phone number">
+
+    <label for="lpassword" class="labels">Password</label>
+    <input type="number" class="form-input" id="lpassword" name="password" placeholder="enter password">
+  
+    <input type="submit" value="Create Account">
+  </form>
+
+  <div class="below-form">
+  	<p>
+  		<small>By clicking Create Account, you agree to our <br> 
+		<a href="#">Terms of Service</a> and have read and acknowledge <br>our <a href="#">Privacy Statement.</a></small> 
+  	</p>
+  </div>
+  	
+  <div  class="buttom-form">
+  	<p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+  </div>
+</div>
+
+<footer>
+	<p>
+		Legal  Privacy  Security<br>
+		© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+		Terms and conditions, features, support, pricing, and service options subject to change without notice.
+	</p>
+</footer>
+
+	</body>
+</html>
