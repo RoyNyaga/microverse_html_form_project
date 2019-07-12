@@ -6,20 +6,25 @@
 		<title>Forms</title>
 	</head>
 	<body>
-<nav>
-	<div class="nav-text">
-		<p>do you already have an account <br> or you already ha a </p>
-	</div>	
-	<div class="nav-button">
-		 <input type="submit" value="sign in">
-	</div>
-	
-</nav>		
-
+<header>
+	<nav>
+		<div class="nav-text">
+			<p><ts style="color:black;">Already have an intuit account?</ts> <br> I forgot my User ID or Password </p>
+		</div>	
+		<div class="nav-button">
+			<span class="ius-white-lock-img"></span><button name="signin" type="signin" class="button" ><img src="images/lock.png" alt="lock no found" /> &nbsp&nbsp<b>Sign in</b></button>
+		</div>
+		
+	</nav>
+</header>	
+<main>
+	<img class="logo" src="images/logo.png" alt="intuit logo">
+</main>
 <div class="form-fields">
+
 	<div class="above-form">
 		<h2 class="above-text">Create an Intuit account</h2>
-		<p class="above-text">One account for everything Intuit, including Mint. <br> <a href="#"><small class="above-text">learn more</small></a> <br><span class="above-text">Already have an account?</sapn><span class="above-text"><a href="#">Signin</a></span></p>		
+		<p class="above-text">One account for everything Intuit, including Mint. <br> <a href="#"><small class="above-text">learn more</small></a></p>		
 	</div>
 
   <form action="/action_page.php">
@@ -27,12 +32,13 @@
     <input type="email" class="form-input" id="email" name="email" placeholder="Your Email">
 
     <label for="lnumber" class="labels">Phone(recommended)</label>
-    <input type="number" class="form-input" id="lnumber" name="number" placeholder="phone number">
+    <input type="number" class="form-input" id="lnumber" name="number" placeholder="Phone number"><small>Standard call, messaging or data rates may apply.</small></br>
 
     <label for="lpassword" class="labels">Password</label>
-    <input type="number" class="form-input" id="lpassword" name="password" placeholder="enter password">
+    <input type="number" class="form-input" id="lpassword" name="password" placeholder="Enter password">
   
-    <input type="submit" value="Create Account">
+    <button name="submit" type="submit" class="button" ><img src="images/lock.png" alt="lock no found" /> &nbsp&nbspCreate Account</button>
+
   </form>
 
   <div class="below-form">
@@ -43,7 +49,7 @@
   </div>
   	
   <div  class="buttom-form">
-  	<p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+  	<p>Invisible reCAPTCHA by Google <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy Policy and <a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms of Use</a>.</p>
   </div>
 </div>
 
