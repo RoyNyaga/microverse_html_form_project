@@ -1,0 +1,1 @@
+This is a Microverse project and consist of producing a clone of Mint.com’s signup page using html and css. To view this project life, you can visit the link https://roynyaga.github.io/microverse_html_form_project/
